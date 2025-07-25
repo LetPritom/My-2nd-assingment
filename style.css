@@ -299,3 +299,198 @@
     color: white;
     cursor: pointer;
 }
+
+
+/* footer-design */
+
+.main-section {
+    height: 50vh;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-main-height {
+    height: 250px;
+}
+
+.foot-main-width {
+    width: 280px;
+}
+
+.footer-container {
+    width: 86%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.foot-pc {
+    color: #8987A1;
+}
+
+.foot-p {
+    font-size: 1rem;
+}
+
+.link-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.four {
+    margin-top: 7px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.lore {
+    font-size:1.2rem ;
+    margin-top: 30px;
+}
+
+.foot-logo {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* resposive-layout */
+
+/* For small devices */
+
+
+@media (max-width: 576px) {
+
+  /* Hide navbar links, only show cart */
+  .action-home {
+    display: none;
+  }
+
+  .nav-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+
+  .nav-logo .img {
+    width: 100px;
+  }
+
+  .cart-1 {
+    gap: 0;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .als, .flw {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    padding-left: 10px;
+  }
+
+  .write {
+    padding: 0 10px;
+  }
+
+  .hrmg {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  /* Cart Section - 2 columns */
+  .cart-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .dg-cart {
+    width: 100%;
+    padding: 5px;
+  }
+
+  /* Flower Lover Section */
+  .flower-lover {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .rose {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .item-1,
+  .list {
+    width: 100%;
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  /* Bunch Section */
+  .bunch-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .font-head {
+    width: 100%;
+    text-align: center;
+  }
+
+  .font-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .font-input input,
+  .font-input button {
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* Footer (optional) */
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+}
