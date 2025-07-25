@@ -187,17 +187,19 @@
 .main-love-container {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: auto;
     flex-wrap: wrap;
     margin-top: 20px;
 }
 
 .flower-lover {
     width: 83%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content:space-between;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .fl-storeimg {
@@ -233,4 +235,67 @@
 
 .ed {
     font-size: 2rem;
+}
+
+
+.main-bunch {
+    height: auto;
+}
+
+/* buch-section */
+
+
+.main-bunch {
+    background-image: url(./assets/news-letter-bg.png);
+    height:90vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.bunch-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.bunch-head {
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.input-mail {
+    border: none;
+    width: 30vw;
+    min-width: 300px;
+}
+
+.flex-bunch {
+    display: flex;
+
+}
+
+.heading {
+    height: 70px;
+}
+
+.input {
+    width: 40vw;
+    min-width: 400px;
+    padding: 10px;
+    border: none;
+}
+
+.selection {
+    border: none;
+    padding: 10px;
+    width: 5.8rem;
+    background-color: #E95A08;
+    color: white;
+    cursor: pointer;
 }
