@@ -49,7 +49,7 @@
 
 .width-container {
     width: 100%;
-    height: 84vh;
+    height: 82.7vh;
     justify-content: center;
 }
 
@@ -98,6 +98,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .flw-plane h1 {
@@ -120,7 +121,7 @@
 /* cart-design */
 
 .cart-sec {
-    height:100vh;
+    height:auto;
     margin-top: 2rem;
 }
 
@@ -138,7 +139,7 @@
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .dg-cart {
@@ -162,10 +163,74 @@
     line-height: 25px;
 }
 
+.line-height-2 {
+    line-height: 35px;
+}
+
 .btn {
     width: 208px;
     padding: 10px 0;
     background-color: #E95A08;
     color: white;
     border: none;
+}
+
+
+/* flower store section */
+
+
+.lover {
+    height: auto;
+}
+
+
+.main-love-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.flower-lover {
+    width: 83%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.fl-storeimg {
+    margin-top: 30px;
+}
+
+.rose {
+    height: 500px;
+    margin-left: 20px;
+}
+
+.list {
+    height: 400px;
+    width: 440px;
+}
+
+.item-1 {
+    margin-top: 35px;
+    margin-left: 20px;
+    height: 400px;
+    width: 440px;
+}
+
+.write {
+    letter-spacing: 1px;
+}
+
+.auto {
+    margin-left: 40px;
+    margin-top:40px;
+    color: #8987A1;
+}
+
+.ed {
+    font-size: 2rem;
 }
